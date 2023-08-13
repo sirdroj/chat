@@ -51,7 +51,7 @@ const Chatbox = ({ user }) => {
           );
         })}
       </div>
-      <p id="botm">.</p>
+      <p id="botm">-</p>
       <div className="sendbox">
         <form onSubmit={hSumbit}>
           <input
