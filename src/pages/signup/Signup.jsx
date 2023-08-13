@@ -79,7 +79,7 @@ const Signup = ({ setpg }) => {
             } 
         }}
         />
-        <h2 className="loginboxelements">conferm Password</h2>
+        <h2 className="loginboxelements">confirm Password</h2>
         <input
           className="loginboxelements"
           type="text"

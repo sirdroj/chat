@@ -9,12 +9,6 @@
   top:0;
   width:100%
 }
-.user{
-  display: flex;
-  justify-content: center;
-  // align-items: center;
-  padding: 5px 14px;
-}
 .nav-links a {
   color: #fff;
 }
@@ -30,10 +24,11 @@
   display: flex;
   gap: 1em;
   font-size: 18px;
+  padding-right: 40px;
 }
 
 .menu li:hover {
-  background-color: rgb(26, 49, 143);
+  background-color: purple;
   border-radius: 5px;
   transition: 0.3s ease;
   cursor: pointer;
@@ -155,6 +150,7 @@ input[type=checkbox] {
   display: none;
   font-size: 24px;
   user-select: none;
+  margin-right: 30px;
 }
 
 /* APPLYING MEDIA QUERIES */
@@ -165,7 +161,7 @@ input[type=checkbox] {
  .menu {
     display:none;
     position: absolute;
-    background-color:rgb(26, 49, 143);
+    background-color:purple;
     right: 0;
     left: 0;
     text-align: center;

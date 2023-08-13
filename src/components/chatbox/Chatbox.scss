@@ -1,33 +1,35 @@
 .chatbox {
-//   margin:10px;
-  font-size: 22px;
-//   background-color: rgba(111, 0, 255, 0.176);
-//   height: 100vh;
+  //   margin:10px;
+  font-size: 18px;
+  //   background-color: rgba(111, 0, 255, 0.176);
+  //   height: 100vh;
   .chats {
     margin: 10px;
     // flex-direction: column;
-    margin-bottom: 4.5rem;
-    margin-top: 1.5rem;
+    // margin-bottom: 4.5rem;
+    // margin-top: 1.5rem;
     // display: flex;
     // width: 100%;
     .messagewrap {
-        // width: 1100%;
+      // width: 1100%;
       display: flex;
       align-items: right;
-      border:blue;
-    //   flex-wrap: wrap;
-    //   border:solid;
-      justify-content:right;
+      border: blue;
+      //   flex-wrap: wrap;
+      //   border:solid;
+      justify-content: right;
 
       .message {
-        // background-color: wheat;
-        padding: 7px;
+        background-color: wheat;
+        padding-left: 5px;
+        padding-right: 5px;
         border-radius: 10px;
         border: solid;
         border-width: 2px;
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 3px;
+        line-height: 22px;
         .messagetext {
           // width:100px;
           overflow: hidden;
@@ -43,7 +45,7 @@
     bottom: 0px;
     width: 100vw;
     // height:2rem;
-    // background: wheat;
+    background: rgb(222, 197, 255);
     // margin:10px;
     margin-bottom: 0;
     padding: 3px;
@@ -76,18 +78,13 @@
 }
 @media (min-width: 768px) {
   .chatbox {
-      font-size: 25px;
+    font-size: 25px;
     .chats {
-        margin-top: 4.5rem;
+      margin-top: 4.5rem;
       .messagewrap {
-       
-
         .message {
-          
           .messagetext {
-            
             max-width: 550px;
-            
           }
         }
       }

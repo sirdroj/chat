@@ -15,8 +15,8 @@ const Login = ({ setuser, setpg }) => {
       console.log(check + " password incorrect");
       setststus( " password incorrect");
     } else if(check==3) {
-      console.log(check + " id pass not match");
-      setststus( "id pass not match");
+      console.log(check + " id password not match");
+      setststus( "ID Password does not match");
     }
   }
   useEffect(() => {
