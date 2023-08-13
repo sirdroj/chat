@@ -74,7 +74,7 @@ const Signup = ({ setpg }) => {
           type="text"
           onChange={(e) => {
             setp1(e.target.value);
-            if (p1 != p2) {
+            if (p1 !== p2) {
                 setabovep("passwords doesnot match");
             } 
         }}
@@ -85,7 +85,7 @@ const Signup = ({ setpg }) => {
           type="text"
           onChange={(e) => {
               setp2(e.target.value);
-              if (p1 != p2) {
+              if (p1 !== p2) {
                   setabovep("passwords doesnot match");
                 } 
             }}
