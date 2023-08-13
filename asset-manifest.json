@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sirdroj/chat.git/static/css/main.3ce28574.css",
+    "main.css": "/sirdroj/chat.git/static/css/main.58f72d36.css",
     "main.js": "/sirdroj/chat.git/static/js/main.0ab8574d.js",
     "static/js/787.ade409f9.chunk.js": "/sirdroj/chat.git/static/js/787.ade409f9.chunk.js",
     "index.html": "/sirdroj/chat.git/index.html",
-    "main.3ce28574.css.map": "/sirdroj/chat.git/static/css/main.3ce28574.css.map",
+    "main.58f72d36.css.map": "/sirdroj/chat.git/static/css/main.58f72d36.css.map",
     "main.0ab8574d.js.map": "/sirdroj/chat.git/static/js/main.0ab8574d.js.map",
     "787.ade409f9.chunk.js.map": "/sirdroj/chat.git/static/js/787.ade409f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ce28574.css",
+    "static/css/main.58f72d36.css",
     "static/js/main.0ab8574d.js"
   ]
 }
