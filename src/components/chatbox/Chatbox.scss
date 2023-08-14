@@ -2,14 +2,16 @@
   //   margin:10px;
   font-size: 18px;
   //   background-color: rgba(111, 0, 255, 0.176);
-  //   height: 100vh;
   .chats {
+    //   min-height: 100vh;
+    // background-color: yellow;
     margin: 10px;
     // flex-direction: column;
-    // margin-bottom: 4.5rem;
-    // margin-top: 1.5rem;
+    margin-bottom: 4.5rem;
+    margin-top: 1.5rem;
     // display: flex;
     // width: 100%;
+
     .messagewrap {
       // width: 1100%;
       display: flex;
@@ -29,7 +31,7 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 3px;
-        line-height: 22px;
+        // line-height: 22px;
         .messagetext {
           // width:100px;
           overflow: hidden;
@@ -92,8 +94,13 @@
 
     .sendbox {
       form {
-        .textarea {
-          width: 94%;
+          .textarea {
+            font-size: 28px;
+            width: 94%;
+        }
+        button{
+            font-size: 22px;
+
         }
       }
     }

@@ -8,7 +8,7 @@ import Login from "./pages/login/Login";
 import Home from "./pages/home/Home";
 import Signup from "./pages/signup/Signup";
 function App() {
-  const [pg,setpg]=useState(1)
+  const [pg,setpg]=useState(0)
   const [check, setcheck] = useState(0);
   // const [cd,setcd]=useState(0)
   const [chat, setchat] = useState([]);
